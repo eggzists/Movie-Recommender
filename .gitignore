@@ -1,0 +1,14 @@
+# Ignore virtual environment
+myenv/
+# Ignore python cache
+__pycache__/
+*.pyc
+# Streamlit temp
+.streamlit/
+# Ignore pickle artifacts if you don't want to push them
+artifacts/*.pkl
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+movie_list.pkl
+similarity.pkl
+*.pkl
